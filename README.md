@@ -22,7 +22,9 @@
 
 ```text
 browser  →  HTML / CSS / SCSS / JavaScript / TypeScript
-app      →  React / Angular / Spring Boot / Spring Batch
+app      →  React / Next.js / Angular / Node.js / Laravel / Spring
+data     →  SQL / MySQL / PostgreSQL
+delivery →  AWS / Docker / Jenkins / GitHub / GitLab
 scripts  →  Python / Shell
 worlds   →  Minecraft Mod / FiveM
 ```
@@ -36,7 +38,14 @@ worlds   →  Minecraft Mod / FiveM
 <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,angular&amp;theme=dark&amp;perline=7" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript, React, Angular" />
 
 **HTML · CSS · SCSS · JavaScript · TypeScript**<br />
-React / Angular を使ったWebアプリケーション開発。
+Webページのスタイリングから、TypeScriptでのUI実装まで。
+
+### Frameworks & State Management
+
+<img src="https://skillicons.dev/icons?i=nextjs,vite,redux&amp;theme=dark" alt="Next.js, Vite, Redux" />
+
+**React · Next.js · Angular · Vite · Redux · Akita**<br />
+Webアプリケーションの構築と状態管理。
 
 ### Java & Spring
 
@@ -45,11 +54,33 @@ React / Angular を使ったWebアプリケーション開発。
 **Java · Spring Boot · Spring Batch**<br />
 アプリケーションからバッチ処理まで。
 
+### Backend & Databases
+
+<img src="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=dark" alt="Node.js, PHP, Laravel, MySQL, PostgreSQL" />
+
+**Node.js · PHP · Laravel · SQL · MySQL · PostgreSQL**<br />
+サーバーサイドの実装とデータベースを扱う開発。
+
+### Cloud & Delivery
+
+<img src="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=dark" alt="AWS, Docker, Jenkins" />
+
+**AWS · Docker · Jenkins**<br />
+AWS：IAM / S3 / CloudFront / Lambda など。<br />
+クラウドサービスの活用、コンテナ環境、ビルド・デプロイの自動化。
+
+### Collaboration & Design
+
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=dark" alt="Git, GitHub, GitLab, Notion, Figma" />
+
+**Git · GitHub · GitLab · Notion · Figma**<br />
+コードのバージョン管理から、ドキュメント整理・デザインまで。
+
 ### Scripting & Automation
 
 <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" alt="Python" />
 
-**Python · Shell (sh)**<br />
+**Python · ShellScript**<br />
 スクリプトによる作業の自動化とツールづくり。
 
 ### Game Development
@@ -63,12 +94,14 @@ React / Angular を使ったWebアプリケーション開発。
 
 ## 03 / What I build
 
-| Area | Focus | Stack |
-| :--- | :--- | :--- |
-| 🖥️ **Web interfaces** | Webページ・アプリケーションのUI | React, Angular, TypeScript, SCSS |
-| ⚙️ **Applications & batches** | アプリケーション・バッチ処理 | Java, Spring Boot, Spring Batch |
-| 🧰 **Useful scripts** | 日々の作業を助けるツール | Python, Shell |
-| 🎮 **Game extensions** | MinecraftのMod・FiveMのスクリプト | Java, Lua |
+| Area                          | Focus                             | Stack                                       |
+| :---------------------------- | :-------------------------------- | :------------------------------------------ |
+| 🖥️ **Web interfaces**         | WebアプリのUI・状態管理           | React, Next.js, Angular, Vite, Redux, Akita |
+| ⚙️ **Applications & batches** | サーバーサイド・バッチ処理        | Node.js, Laravel, Spring Boot, Spring Batch |
+| 🗃️ **Data & storage**         | SQLを使ったデータ操作             | MySQL, PostgreSQL                           |
+| ☁️ **Cloud & delivery**       | クラウド環境・開発の自動化        | AWS, Docker, Jenkins                        |
+| 🧰 **Useful scripts**         | 日々の作業を助けるツール          | Python, Shell                               |
+| 🎮 **Game extensions**        | MinecraftのMod・FiveMのスクリプト | Java, Lua                                   |
 
 <br />
 
