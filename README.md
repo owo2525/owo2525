@@ -35,14 +35,14 @@ worlds   →  Minecraft Mod / FiveM
 
 ### Frontend
 
-<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,angular&amp;theme=dark&amp;perline=7" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript, React, Angular" />
+<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=dark&amp;perline=5" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript" />
 
 **HTML · CSS · SCSS · JavaScript · TypeScript**<br />
 From styling web pages to building interfaces with TypeScript.
 
 ### Frameworks & State Management
 
-<img src="https://skillicons.dev/icons?i=nextjs,vite,redux&amp;theme=dark" alt="Next.js, Vite, Redux" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=dark" alt="React, Next.js, Angular, Vite, Redux" />
 
 **React · Next.js · Angular · Vite · Redux · Akita**<br />
 Building web applications and managing application state.
