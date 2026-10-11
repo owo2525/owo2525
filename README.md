@@ -20,6 +20,8 @@ Hi, I'm **owo2525**.
 
 I build frontend interfaces, Java applications and batch jobs, automation scripts, and game extensions.
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=owo2525&theme=holi&animation=draw)
+
 ```text
 browser  →  HTML / CSS / SCSS / JavaScript / TypeScript
 app      →  React / Next.js / Angular / Node.js / Laravel / Spring
