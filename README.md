@@ -66,116 +66,13 @@ worlds   → Minecraft Mod / FiveM
   </picture>
 </p>
 
-### Frontend
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=dark&amp;perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=light&amp;perline=5" />
-  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=light&amp;perline=5" height="40" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript" />
-</picture>
-
-**HTML · CSS · SCSS · JavaScript · TypeScript**<br />
-From styling web pages to building interfaces with TypeScript.
-
-### Frameworks & State Management
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=dark&amp;perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=light&amp;perline=5" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=light&amp;perline=5" height="40" alt="React, Next.js, Angular, Vite, Redux" />
-</picture>
-
-**React · Next.js · Angular · Vite · Redux · Akita**<br />
-Building web applications and managing application state.
-
-### Mobile & Cross-Platform
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=flutter&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=flutter&amp;theme=light" height="40" alt="Flutter" />
-</picture>
-
-**Flutter**<br />
-Building clean cross-platform applications across devices.
-
-### Systems & Native
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cpp&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=cpp&amp;theme=light" height="40" alt="C++" />
-</picture>
-
-**C++**<br />
-Writing native programs and performance-focused tools.
-
-### Java & Spring
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=java,spring&amp;theme=light" height="40" alt="Java, Spring" />
-</picture>
-
-**Java · Spring Boot · Spring Batch**<br />
-Developing applications and batch processing jobs.
-
-### Backend & Databases
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=dark&amp;perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light&amp;perline=5" />
-  <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light&amp;perline=5" height="40" alt="Node.js, PHP, Laravel, MySQL, PostgreSQL" />
-</picture>
-
-**Node.js · PHP · Laravel · SQL · MySQL · PostgreSQL**<br />
-Building server-side applications and working with databases.
-
-### Cloud & Delivery
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=light" height="40" alt="AWS, Docker, Jenkins" />
-</picture>
-
-**AWS · Docker · Jenkins**<br />
-AWS: IAM / S3 / CloudFront / Lambda and more.<br />
-Working with cloud services, containers, and CI/CD automation.
-
-### Collaboration & Design
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=dark&amp;perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=light&amp;perline=5" />
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=light&amp;perline=5" height="40" alt="Git, GitHub, GitLab, Notion, Figma" />
-</picture>
-
-**Git · GitHub · GitLab · Notion · Figma**<br />
-From version control to documentation and UI design.
-
-### Scripting & Automation
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=py&amp;theme=light" height="40" alt="Python" />
-</picture>
-
-**Python · ShellScript**<br />
-Writing scripts and tools to automate everyday tasks.
-
-### Game Development
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,lua&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,lua&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=java,lua&amp;theme=light" height="40" alt="Java, Lua" />
-</picture>
-
-**Minecraft Mod / Java · FiveM / Lua**<br />
-Bringing custom features into game worlds.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=dark&amp;perline=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=light&amp;perline=10" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=light&amp;perline=10" alt="HTML, CSS, SCSS, JavaScript, TypeScript, React, Next.js, Angular, Vite, Redux, Flutter, C++, Java, Spring, Node.js, PHP, Laravel, MySQL, PostgreSQL, Lua, AWS, Docker, Jenkins, Git, GitHub, GitLab, Notion, Figma, Python, Shell" />
+  </picture>
+</p>
 
 <br />
 
