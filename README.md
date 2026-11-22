@@ -68,8 +68,8 @@ worlds   → Minecraft Mod / FiveM
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=dark&amp;perline=10" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=light&amp;perline=10" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Csass%2Cjs%2Cts%2Creact%2Cnextjs%2Cangular%2Cvite%2Credux%2Cflutter%2Ccpp%2Cjava%2Cspring%2Cnodejs%2Cphp%2Claravel%2Cmysql%2Cpostgres%2Clua%2Caws%2Cdocker%2Cjenkins%2Cgit%2Cgithub%2Cgitlab%2Cnotion%2Cfigma%2Cpy%2Cbash&amp;theme=dark&amp;perline=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Csass%2Cjs%2Cts%2Creact%2Cnextjs%2Cangular%2Cvite%2Credux%2Cflutter%2Ccpp%2Cjava%2Cspring%2Cnodejs%2Cphp%2Claravel%2Cmysql%2Cpostgres%2Clua%2Caws%2Cdocker%2Cjenkins%2Cgit%2Cgithub%2Cgitlab%2Cnotion%2Cfigma%2Cpy%2Cbash&amp;theme=light&amp;perline=10" />
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,angular,vite,redux,flutter,cpp,java,spring,nodejs,php,laravel,mysql,postgres,lua,aws,docker,jenkins,git,github,gitlab,notion,figma,py,bash&amp;theme=light&amp;perline=10" alt="HTML, CSS, SCSS, JavaScript, TypeScript, React, Next.js, Angular, Vite, Redux, Flutter, C++, Java, Spring, Node.js, PHP, Laravel, MySQL, PostgreSQL, Lua, AWS, Docker, Jenkins, Git, GitHub, GitLab, Notion, Figma, Python, Shell" />
   </picture>
 </p>
