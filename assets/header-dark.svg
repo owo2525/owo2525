@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="390" viewBox="0 0 880 390" role="img" aria-labelledby="title desc">
   <title id="title">owo2525 — Ami UI Profile Header (Dark)</title>
-  <desc id="desc">owo2525 GitHub profile banner styled with the Ami UI dark-mode sky-blue and dusk-lavender translucent card theme.</desc>
+  <desc id="desc">owo2525 GitHub profile banner styled with the Ami UI dark-mode sky-blue and dusk-lavender translucent card theme, responsive for desktop and mobile.</desc>
+  <style>
+    .mobile-layout { display: none; }
+    @media (max-width: 560px) {
+      .desktop-layout { display: none; }
+      .mobile-layout { display: block; }
+    }
+  </style>
   <defs>
     <linearGradient id="ami-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#131A2B"/>
@@ -12,107 +19,112 @@
       <stop offset="100%" stop-color="#203252"/>
     </linearGradient>
     <clipPath id="outer-clip">
-      <rect width="1200" height="420" rx="20"/>
+      <rect width="880" height="390" rx="20"/>
     </clipPath>
     <clipPath id="mini-card-clip">
-      <rect x="756" y="70" width="364" height="280" rx="20"/>
+      <rect x="540" y="58" width="288" height="274" rx="20"/>
     </clipPath>
     <filter id="card-shadow" x="-5%" y="-8%" width="110%" height="122%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#070B16" flood-opacity="0.40"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#070B16" flood-opacity="0.40"/>
     </filter>
     <filter id="mini-shadow" x="-8%" y="-10%" width="116%" height="126%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#070B16" flood-opacity="0.34"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#070B16" flood-opacity="0.34"/>
     </filter>
-    <pattern id="soft-dots-dark" width="28" height="28" patternUnits="userSpaceOnUse">
+    <pattern id="soft-dots-dark" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#A8D8F0" fill-opacity="0.10"/>
     </pattern>
   </defs>
 
   <!-- Outer Ami UI dark gradient canvas -->
   <g clip-path="url(#outer-clip)">
-    <rect width="1200" height="420" fill="url(#ami-bg-dark)"/>
-    <rect width="1200" height="420" fill="url(#soft-dots-dark)"/>
-    <circle cx="150" cy="36" r="220" fill="#65BFF5" fill-opacity="0.15"/>
-    <circle cx="1060" cy="380" r="240" fill="#C5C9E3" fill-opacity="0.14"/>
+    <rect width="880" height="390" fill="url(#ami-bg-dark)"/>
+    <rect width="880" height="390" fill="url(#soft-dots-dark)"/>
+    <circle cx="120" cy="36" r="180" fill="#65BFF5" fill-opacity="0.15"/>
+    <circle cx="770" cy="355" r="200" fill="#C5C9E3" fill-opacity="0.14"/>
   </g>
 
   <!-- Main translucent dark Ami card -->
-  <rect x="28" y="28" width="1144" height="364" rx="20" fill="#161E31" fill-opacity="0.90" stroke="#31405E" stroke-width="1.2" filter="url(#card-shadow)"/>
+  <rect x="20" y="20" width="840" height="350" rx="20" fill="#161E31" fill-opacity="0.90" stroke="#31405E" stroke-width="1.2" filter="url(#card-shadow)"/>
 
-  <!-- Left column: Accent heading, title, tagline, focus chips -->
-  <g font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
-    <!-- Accent heading: small English label + short line -->
-    <circle cx="78" cy="83" r="4.5" fill="#65BFF5"/>
-    <text x="92" y="88" font-size="13" font-weight="600" letter-spacing="2.2" fill="#A8B7D1">OWO2525 / PROFILE</text>
-    <line x1="294" y1="83.5" x2="348" y2="83.5" stroke="#65BFF5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Desktop layout (2 columns) -->
+  <g class="desktop-layout" font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
+    <!-- Accent heading -->
+    <circle cx="58" cy="69" r="4.5" fill="#65BFF5"/>
+    <text x="72" y="74" font-size="13" font-weight="600" letter-spacing="2" fill="#A8B7D1">OWO2525 / PROFILE</text>
+    <line x1="264" y1="69.5" x2="314" y2="69.5" stroke="#65BFF5" stroke-width="2.5" stroke-linecap="round"/>
 
-    <!-- Main title -->
-    <text x="70" y="172" font-size="76" font-weight="700" letter-spacing="-2.5" fill="#F4F8FF">owo2525<tspan fill="#65BFF5">.</tspan></text>
+    <!-- Hero title -->
+    <text x="50" y="154" font-size="68" font-weight="700" letter-spacing="-2" fill="#F4F8FF">owo2525<tspan fill="#65BFF5">.</tspan></text>
 
-    <!-- Subtitle & description -->
-    <text x="72" y="220" font-size="20" font-weight="600" fill="#E6EFFC">Interfaces, apps, systems &amp; playable worlds.</text>
-    <text x="72" y="250" font-size="14.5" font-weight="400" fill="#A8B7D1">Choosing the languages and frameworks that fit what I want to build.</text>
+    <!-- Subtitle -->
+    <text x="52" y="198" font-size="18" font-weight="600" fill="#E6EFFC">Interfaces, apps, systems &amp; playable worlds.</text>
+    <text x="52" y="226" font-size="13.5" font-weight="400" fill="#A8B7D1">Choosing the languages and frameworks that fit what I want to build.</text>
 
-    <!-- Secondary chip pills -->
+    <!-- Focus chips (2 clean rows) -->
     <g font-size="12.5" font-weight="600" fill="#E6EFFC" text-anchor="middle">
-      <rect x="72" y="282" width="132" height="34" rx="12" fill="#1E2942" stroke="#344566" stroke-width="1"/>
-      <text x="138" y="303.5">Web / Frontend</text>
+      <rect x="52" y="252" width="136" height="32" rx="11" fill="#1E2942" stroke="#344566" stroke-width="1"/>
+      <text x="120" y="272.5">Web / Frontend</text>
 
-      <rect x="214" y="282" width="136" height="34" rx="12" fill="#1E2942" stroke="#344566" stroke-width="1"/>
-      <text x="282" y="303.5">Flutter / Mobile</text>
+      <rect x="198" y="252" width="142" height="32" rx="11" fill="#1E2942" stroke="#344566" stroke-width="1"/>
+      <text x="269" y="272.5">Flutter / Mobile</text>
 
-      <rect x="360" y="282" width="114" height="34" rx="12" fill="#1E2942" stroke="#344566" stroke-width="1"/>
-      <text x="417" y="303.5">C++ / Java</text>
+      <rect x="350" y="252" width="114" height="32" rx="11" fill="#1E2942" stroke="#344566" stroke-width="1"/>
+      <text x="407" y="272.5">C++ / Java</text>
 
-      <rect x="484" y="282" width="144" height="34" rx="12" fill="#1E2942" stroke="#344566" stroke-width="1"/>
-      <text x="556" y="303.5">Scripts &amp; Mods</text>
+      <rect x="52" y="294" width="148" height="32" rx="11" fill="#1E2942" stroke="#344566" stroke-width="1"/>
+      <text x="126" y="314.5">Cloud &amp; Delivery</text>
+
+      <rect x="210" y="294" width="148" height="32" rx="11" fill="#1E2942" stroke="#344566" stroke-width="1"/>
+      <text x="284" y="314.5">Scripts &amp; Mods</text>
     </g>
 
-    <!-- Subtle bottom metadata -->
-    <text x="72" y="358" font-size="11.5" font-weight="500" letter-spacing="1.8" fill="#8FA2C4">FRONTEND · FLUTTER · C++ · JAVA · AUTOMATION · GAME MODDING</text>
+    <!-- Bottom metadata -->
+    <text x="52" y="350" font-size="11" font-weight="500" letter-spacing="1.6" fill="#8FA2C4">AMI DESIGN THEME · GITHUB PROFILE</text>
+
+    <!-- Right column: Soft halo + Ami UI mini card -->
+    <circle cx="808" cy="78" r="38" fill="#65BFF5" fill-opacity="0.16"/>
+    <circle cx="556" cy="310" r="30" fill="#C5C9E3" fill-opacity="0.15"/>
+
+    <g filter="url(#mini-shadow)">
+      <rect x="540" y="58" width="288" height="274" rx="20" fill="#1A243B" stroke="#344566" stroke-width="1.2"/>
+    </g>
+
+    <g clip-path="url(#mini-card-clip)">
+      <rect x="540" y="58" width="288" height="38" fill="#1E2B46"/>
+      <line x1="540" y1="96" x2="828" y2="96" stroke="#344566" stroke-width="1"/>
+      <circle cx="564" cy="77" r="4.2" fill="#A8D8F0"/>
+      <circle cx="578" cy="77" r="4.2" fill="#C5C9E3"/>
+      <circle cx="592" cy="77" r="4.2" fill="#65BFF5"/>
+      <text x="808" y="81" text-anchor="end" font-family="'Consolas', 'Courier New', monospace" font-size="11.5" font-weight="600" letter-spacing="1" fill="#A8B7D1">owo.profile</text>
+    </g>
+
+    <!-- owo motif panel -->
+    <rect x="562" y="116" width="244" height="140" rx="16" fill="url(#motif-bg-dark)" stroke="#65BFF5" stroke-opacity="0.45" stroke-width="1.2"/>
+    <g>
+      <circle cx="604" cy="148" r="3" fill="#C5C9E3" fill-opacity="0.85"/>
+      <circle cx="764" cy="216" r="3.5" fill="#65BFF5" fill-opacity="0.85"/>
+      <circle cx="772" cy="152" r="2.5" fill="#A8D8F0" fill-opacity="0.85"/>
+      <circle cx="642" cy="186" r="17" fill="#161E31" stroke="#65BFF5" stroke-width="3.8"/>
+      <circle cx="636" cy="180" r="3.2" fill="#A8D8F0"/>
+      <path d="M668 181 Q676 198 684 185 Q692 198 700 181" fill="none" stroke="#F4F8FF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="726" cy="186" r="17" fill="#161E31" stroke="#65BFF5" stroke-width="3.8"/>
+      <circle cx="720" cy="180" r="3.2" fill="#A8D8F0"/>
+    </g>
+
+    <!-- Status row -->
+    <circle cx="570" cy="292" r="4.5" fill="#34D399"/>
+    <text x="583" y="296.5" font-size="12.5" font-weight="500" fill="#E6EFFC">Building across web, mobile &amp; native</text>
   </g>
 
-  <!-- Right column: Soft halo + Ami UI mini card with owo motif -->
-  <circle cx="1090" cy="96" r="46" fill="#65BFF5" fill-opacity="0.16"/>
-  <circle cx="776" cy="322" r="36" fill="#C5C9E3" fill-opacity="0.15"/>
+  <!-- Mobile layout (1 column, high legibility on small screens) -->
+  <g class="mobile-layout" font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
+    <circle cx="70" cy="88" r="6" fill="#65BFF5"/>
+    <text x="90" y="95" font-size="22" font-weight="600" letter-spacing="2.4" fill="#A8B7D1">OWO2525 / PROFILE</text>
+    <rect x="696" y="64" width="120" height="46" rx="14" fill="url(#motif-bg-dark)" stroke="#65BFF5" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="756" y="95" text-anchor="middle" font-size="24" font-weight="700" fill="#A8D8F0">owo</text>
 
-  <g filter="url(#mini-shadow)">
-    <rect x="756" y="70" width="364" height="280" rx="20" fill="#1A243B" stroke="#344566" stroke-width="1.2"/>
-  </g>
-
-  <g clip-path="url(#mini-card-clip)">
-    <!-- Mini card header bar -->
-    <rect x="756" y="70" width="364" height="42" fill="#1E2B46"/>
-    <line x1="756" y1="112" x2="1120" y2="112" stroke="#344566" stroke-width="1"/>
-    <circle cx="782" cy="91" r="4.5" fill="#A8D8F0"/>
-    <circle cx="798" cy="91" r="4.5" fill="#C5C9E3"/>
-    <circle cx="814" cy="91" r="4.5" fill="#65BFF5"/>
-    <text x="1096" y="95" text-anchor="end" font-family="'Consolas', 'Courier New', monospace" font-size="11.5" font-weight="600" letter-spacing="1" fill="#A8B7D1">owo.profile</text>
-  </g>
-
-  <!-- Subtle owo motif panel -->
-  <rect x="784" y="130" width="308" height="92" rx="16" fill="url(#motif-bg-dark)" stroke="#65BFF5" stroke-opacity="0.45" stroke-width="1.2"/>
-  <g>
-    <circle cx="848" cy="154" r="3" fill="#C5C9E3" fill-opacity="0.85"/>
-    <circle cx="1028" cy="198" r="3.5" fill="#65BFF5" fill-opacity="0.85"/>
-    <circle cx="1038" cy="156" r="2.5" fill="#A8D8F0" fill-opacity="0.85"/>
-    <!-- Left 'o' -->
-    <circle cx="898" cy="176" r="15.5" fill="#161E31" stroke="#65BFF5" stroke-width="3.5"/>
-    <circle cx="893" cy="171" r="3" fill="#A8D8F0"/>
-    <!-- Center 'w' -->
-    <path d="M923 172 Q930.5 187 938 175 Q945.5 187 953 172" fill="none" stroke="#F4F8FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Right 'o' -->
-    <circle cx="978" cy="176" r="15.5" fill="#161E31" stroke="#65BFF5" stroke-width="3.5"/>
-    <circle cx="973" cy="171" r="3" fill="#A8D8F0"/>
-  </g>
-
-  <!-- Status line -->
-  <g font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
-    <circle cx="793" cy="249" r="4.5" fill="#34D399"/>
-    <text x="807" y="253.5" font-size="13" font-weight="500" fill="#E6EFFC">Building across web, mobile &amp; native</text>
-
-    <!-- Ami UI primary action style badge (#65BFF5 bg + dark Ami slate text) -->
-    <rect x="784" y="274" width="308" height="44" rx="12" fill="#65BFF5"/>
-    <text x="938" y="301" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.2" fill="#1C2742">WEB · FLUTTER · C++ · JAVA</text>
+    <text x="64" y="216" font-size="112" font-weight="700" letter-spacing="-3" fill="#F4F8FF">owo2525<tspan fill="#65BFF5">.</tspan></text>
+    <text x="66" y="278" font-size="31" font-weight="600" fill="#E6EFFC">Interfaces, apps, systems &amp; game worlds.</text>
+    <line x1="66" y1="316" x2="186" y2="316" stroke="#65BFF5" stroke-width="5" stroke-linecap="round"/>
   </g>
 </svg>

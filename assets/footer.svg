@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="108" viewBox="0 0 1200 108" role="img" aria-label="owo2525 footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="116" viewBox="0 0 880 116" role="img" aria-label="owo2525 footer">
+  <style>
+    .mobile-layout { display: none; }
+    @media (max-width: 560px) {
+      .desktop-layout { display: none; }
+      .mobile-layout { display: block; }
+    }
+  </style>
   <defs>
     <linearGradient id="ami-footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F4F8FF"/>
@@ -9,26 +16,29 @@
       <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#414D70" flood-opacity="0.08"/>
     </filter>
   </defs>
-  <rect width="1200" height="108" rx="20" fill="url(#ami-footer-bg)"/>
-  <rect x="16" y="16" width="1168" height="76" rx="16" fill="#FFFFFF" fill-opacity="0.92" stroke="#D8E0EC" stroke-width="1.2" filter="url(#footer-shadow)"/>
-  <g font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
-    <!-- Subtle owo pill on left -->
-    <rect x="38" y="38" width="58" height="32" rx="12" fill="#F4F8FF" stroke="#A8D8F0" stroke-width="1.2"/>
-    <text x="67" y="59" text-anchor="middle" font-size="13" font-weight="700" fill="#414D70">owo</text>
+  <rect width="880" height="116" rx="20" fill="url(#ami-footer-bg)"/>
+  <rect x="14" y="14" width="852" height="88" rx="16" fill="#FFFFFF" fill-opacity="0.92" stroke="#D8E0EC" stroke-width="1.2" filter="url(#footer-shadow)"/>
 
-    <!-- Center text -->
-    <text x="600" y="48" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="1.8" fill="#59657E">
+  <g class="desktop-layout" font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
+    <rect x="34" y="42" width="62" height="32" rx="12" fill="#F4F8FF" stroke="#A8D8F0" stroke-width="1.2"/>
+    <text x="65" y="63" text-anchor="middle" font-size="13.5" font-weight="700" fill="#414D70">owo</text>
+
+    <text x="440" y="51" text-anchor="middle" font-size="13.5" font-weight="600" letter-spacing="1.6" fill="#59657E">
       <tspan font-weight="700" fill="#414D70">owo2525</tspan>
       <tspan fill="#65BFF5">  /  </tspan>
       <tspan>WEB · MOBILE · SYSTEMS · SCRIPTS · WORLDS</tspan>
     </text>
-    <text x="600" y="73" text-anchor="middle" font-size="13" font-weight="500" fill="#59657E">Thanks for stopping by.</text>
+    <text x="440" y="78" text-anchor="middle" font-size="14" font-weight="500" fill="#59657E">Thanks for stopping by.</text>
 
-    <!-- Subtle color dots representing Ami 5-color palette on right -->
-    <circle cx="1096" cy="54" r="5" fill="#F4F8FF" stroke="#D8E0EC" stroke-width="1"/>
-    <circle cx="1112" cy="54" r="5" fill="#A8D8F0"/>
-    <circle cx="1128" cy="54" r="5" fill="#C5C9E3"/>
-    <circle cx="1144" cy="54" r="5" fill="#65BFF5"/>
-    <circle cx="1160" cy="54" r="5" fill="#414D70"/>
+    <circle cx="766" cy="58" r="5" fill="#F4F8FF" stroke="#D8E0EC" stroke-width="1"/>
+    <circle cx="782" cy="58" r="5" fill="#A8D8F0"/>
+    <circle cx="798" cy="58" r="5" fill="#C5C9E3"/>
+    <circle cx="814" cy="58" r="5" fill="#65BFF5"/>
+    <circle cx="830" cy="58" r="5" fill="#414D70"/>
+  </g>
+
+  <g class="mobile-layout" font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif">
+    <text x="440" y="52" text-anchor="middle" font-size="28" font-weight="700" fill="#414D70">owo2525<tspan fill="#65BFF5">  /  </tspan><tspan font-weight="600" fill="#59657E">owo</tspan></text>
+    <text x="440" y="88" text-anchor="middle" font-size="24" font-weight="500" fill="#59657E">Thanks for stopping by.</text>
   </g>
 </svg>
