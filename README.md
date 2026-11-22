@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="owo2525 — Interfaces, apps, systems and playable worlds" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/header.svg" />
+    <img src="assets/header.svg" width="100%" alt="owo2525 — Interfaces, apps, systems and playable worlds" />
+  </picture>
 </p>
 
 <p align="center">
@@ -10,14 +14,22 @@
 
 <p align="center">
   <a href="https://github.com/owo2525?tab=repositories">
-    <img src="assets/cta-repos.svg" height="48" alt="Explore my repositories" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/cta-repos-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/cta-repos.svg" />
+      <img src="assets/cta-repos.svg" height="48" alt="Explore my repositories" />
+    </picture>
   </a>
 </p>
 
 <br />
 
 <p align="center">
-  <img src="assets/section-about.svg" width="100%" alt="01 / About me" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-about-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-about.svg" />
+    <img src="assets/section-about.svg" width="100%" alt="01 / About me" />
+  </picture>
 </p>
 
 Hi, I'm **owo2525**.
@@ -25,7 +37,11 @@ Hi, I'm **owo2525**.
 I build frontend interfaces, cross-platform Flutter apps, C++ and Java applications, batch jobs, automation scripts, and game extensions.
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=owo2525&amp;theme=nord_bright&amp;animation=draw" alt="owo2525 GitHub Profile Summary" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=owo2525&amp;theme=nord_dark&amp;animation=draw" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=owo2525&amp;theme=nord_bright&amp;animation=draw" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=owo2525&amp;theme=nord_bright&amp;animation=draw" alt="owo2525 GitHub Profile Summary" />
+  </picture>
 </p>
 
 ```text
@@ -41,7 +57,11 @@ worlds   →  Minecraft Mod / FiveM
 <br />
 
 <p align="center">
-  <img src="assets/section-stack.svg" width="100%" alt="02 / Tech stack" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-stack.svg" />
+    <img src="assets/section-stack.svg" width="100%" alt="02 / Tech stack" />
+  </picture>
 </p>
 
 <table>
@@ -49,7 +69,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Frontend</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=light&amp;perline=5" height="44" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=dark&amp;perline=5" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=light&amp;perline=5" />
+          <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts&amp;theme=light&amp;perline=5" height="44" alt="HTML, CSS, Sass (SCSS), JavaScript, TypeScript" />
+        </picture>
       </p>
       <p>
         <strong>HTML · CSS · SCSS · JavaScript · TypeScript</strong><br />
@@ -59,7 +83,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Frameworks &amp; State Management</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=light&amp;perline=5" height="44" alt="React, Next.js, Angular, Vite, Redux" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=dark&amp;perline=5" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=light&amp;perline=5" />
+          <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite,redux&amp;theme=light&amp;perline=5" height="44" alt="React, Next.js, Angular, Vite, Redux" />
+        </picture>
       </p>
       <p>
         <strong>React · Next.js · Angular · Vite · Redux · Akita</strong><br />
@@ -71,7 +99,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Mobile &amp; Cross-Platform</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=flutter&amp;theme=light" height="44" alt="Flutter" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=flutter&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=flutter&amp;theme=light" height="44" alt="Flutter" />
+        </picture>
       </p>
       <p>
         <strong>Flutter</strong><br />
@@ -81,7 +113,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Systems &amp; Native</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=cpp&amp;theme=light" height="44" alt="C++" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cpp&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=cpp&amp;theme=light" height="44" alt="C++" />
+        </picture>
       </p>
       <p>
         <strong>C++</strong><br />
@@ -93,7 +129,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Java &amp; Spring</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=java,spring&amp;theme=light" height="44" alt="Java, Spring" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=java,spring&amp;theme=light" height="44" alt="Java, Spring" />
+        </picture>
       </p>
       <p>
         <strong>Java · Spring Boot · Spring Batch</strong><br />
@@ -103,7 +143,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Backend &amp; Databases</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light&amp;perline=5" height="44" alt="Node.js, PHP, Laravel, MySQL, PostgreSQL" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=dark&amp;perline=5" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light&amp;perline=5" />
+          <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light&amp;perline=5" height="44" alt="Node.js, PHP, Laravel, MySQL, PostgreSQL" />
+        </picture>
       </p>
       <p>
         <strong>Node.js · PHP · Laravel · SQL · MySQL · PostgreSQL</strong><br />
@@ -115,7 +159,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Cloud &amp; Delivery</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=light" height="44" alt="AWS, Docker, Jenkins" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=aws,docker,jenkins&amp;theme=light" height="44" alt="AWS, Docker, Jenkins" />
+        </picture>
       </p>
       <p>
         <strong>AWS · Docker · Jenkins</strong><br />
@@ -126,7 +174,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Collaboration &amp; Design</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=light&amp;perline=5" height="44" alt="Git, GitHub, GitLab, Notion, Figma" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=dark&amp;perline=5" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=light&amp;perline=5" />
+          <img src="https://skillicons.dev/icons?i=git,github,gitlab,notion,figma&amp;theme=light&amp;perline=5" height="44" alt="Git, GitHub, GitLab, Notion, Figma" />
+        </picture>
       </p>
       <p>
         <strong>Git · GitHub · GitLab · Notion · Figma</strong><br />
@@ -138,7 +190,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Scripting &amp; Automation</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=py&amp;theme=light" height="44" alt="Python" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=py&amp;theme=light" height="44" alt="Python" />
+        </picture>
       </p>
       <p>
         <strong>Python · ShellScript</strong><br />
@@ -148,7 +204,11 @@ worlds   →  Minecraft Mod / FiveM
     <td width="50%" valign="top">
       <h3>Game Development</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=java,lua&amp;theme=light" height="44" alt="Java, Lua" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,lua&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,lua&amp;theme=light" />
+          <img src="https://skillicons.dev/icons?i=java,lua&amp;theme=light" height="44" alt="Java, Lua" />
+        </picture>
       </p>
       <p>
         <strong>Minecraft Mod / Java · FiveM / Lua</strong><br />
@@ -161,7 +221,11 @@ worlds   →  Minecraft Mod / FiveM
 <br />
 
 <p align="center">
-  <img src="assets/section-build.svg" width="100%" alt="03 / What I build" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-build-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/section-build.svg" />
+    <img src="assets/section-build.svg" width="100%" alt="03 / What I build" />
+  </picture>
 </p>
 
 | Area                          | Focus                                          | Stack                                                       |
@@ -177,5 +241,9 @@ worlds   →  Minecraft Mod / FiveM
 <br />
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="owo2525 — Web, Mobile, Systems, Scripts, Worlds" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/footer.svg" />
+    <img src="assets/footer.svg" width="100%" alt="owo2525 — Web, Mobile, Systems, Scripts, Worlds" />
+  </picture>
 </p>
