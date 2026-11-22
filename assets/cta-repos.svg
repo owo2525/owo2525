@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="52" viewBox="0 0 268 52" role="img" aria-label="Explore my repositories">
+  <defs>
+    <filter id="btn-shadow" x="-8%" y="-16%" width="116%" height="145%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#414D70" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect x="4" y="3" width="260" height="44" rx="12" fill="#65BFF5" filter="url(#btn-shadow)"/>
+  <text x="134" y="30" text-anchor="middle" font-family="'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', 'Meiryo', sans-serif" font-size="14.5" font-weight="700" fill="#414D70">Explore my repositories ↗</text>
+</svg>
